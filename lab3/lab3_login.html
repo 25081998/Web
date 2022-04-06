@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab3</title>
+</head>
+<body>
+    <h1>Login page</h1>
+    <p>Динамический url встроен в шаблон</p>
+    <a href="{{ url_for('profile', username='Jane Doe') }}">Jane Doe page</a>
+    <p>Url встроен в шаблон</p>
+    <a href="{{ url_for('index') }}">Назад</a>
+</body>
+</html>
